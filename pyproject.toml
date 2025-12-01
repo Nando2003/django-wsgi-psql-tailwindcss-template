@@ -1,0 +1,20 @@
+[project]
+name = "django-group-vip"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django==5.2.8",
+    "django-widget-tweaks==1.5.0",
+    "psycopg2-binary==2.9.10",
+    "python-dotenv==1.2.1",
+    "whitenoise==6.11.0",
+    "faker==37.3.0",
+    "gunicorn==23.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff==0.6",
+    "django-browser-reload==1.21.0",
+]
