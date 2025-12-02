@@ -32,6 +32,11 @@
     $ docker compose exec app uv run --no-sync manage.py migrate
     ```
 
+7. Run the tailwind watch:
+   ```bash
+    $ npm run watch
+    ```
+
 ## How to run the project (production mode)
 
 1. Change DJANGO_ENV to production in the .env file.
