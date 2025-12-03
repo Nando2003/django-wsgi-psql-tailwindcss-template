@@ -1,3 +1,19 @@
+# Django WSGI PostgreSQL Tailwind CSS Template
+
+A robust and production-ready template to start Django projects with modern development best practices.
+
+## 📋 About the Template
+
+The **django-wsgi-psql-tailwindcss-template** is a complete starter template (boilerplate) for Django applications, integrating modern technologies and professional development tools:
+
+- **Django**: Powerful and versatile Python web framework
+- **WSGI**: Web Server Gateway Interface for production with Gunicorn
+- **PostgreSQL**: Robust and scalable database
+- **Tailwind CSS**: Utility-first CSS framework for responsive design
+- **Docker & Docker Compose**: Containerization for development and production
+- **uv**: Fast Python package manager
+- **Ruff**: High-performance Python linter/formatter
+
 ## How to run the project (development mode)
 
 1. Clone the repository:
